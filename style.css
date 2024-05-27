@@ -1,0 +1,25 @@
+/* ========
+Global
+======== */
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+}
+.container {
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
