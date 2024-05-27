@@ -1,25 +1,55 @@
-/* ========
-Global
-======== */
+/* Reset styles */
 h1,
 h2,
 h3,
 h4,
+h5,
+h6,
 p {
   margin: 0;
 }
 
-button {
-  cursor: pointer;
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-ul,
-ol {
-  list-style-type: none;
-  margin: 0;
+a {
+  color: currentColor;
+  text-decoration: none;
 }
-.container {
-  width: 280px;
-  margin-left: auto;
-  margin-right: auto;
+
+address {
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+textarea,
+input {
+  border-radius: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ==========
+Global
+========= */
+
+body {
+  scroll-behavior: smooth;
+
+  font-family: "Montserrat Inter", sans-serif;
+  font-size: 14px;
+  color: var(--primary-text-hex);
+
+  background-color: var(--primary-bg-color);
 }
