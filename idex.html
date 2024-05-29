@@ -20,12 +20,59 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href=""></a>
-      </nav>
+    <!-- =========
+    Header
+  ================ -->
+    <header class="header">
+      <div class="container header-container">
+        <nav>
+          <a class="logo" href="./idex.html">Mobileapp</a>
+        </nav>
+        <button class="burger-bt" type="button">
+          <svg width="24" height="14">
+            <use href="./image/symbol-defs.svg#icon-moda-menu-bt"></use>
+          </svg>
+        </button>
+      </div>
     </header>
-    <main></main>
+    <main>
+      <!-- =========
+      Hero
+    ============ -->
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">Introducing Mobileapp</h1>
+          <p class="hero-paragraph">Download our mobile app today!</p>
+          <ul class="hero-list">
+            <li class="hero-list-item">
+              <svg width="18" height="18">
+                <use
+                  href="./image/symbol-defs.svg#icon-dashicons_arrow-right"
+                ></use>
+              </svg>
+              <p>Real-time updates and notifications for timely information</p>
+            </li>
+            <li class="hero-list-item">
+              <svg width="18" height="18">
+                <use
+                  href="./image/symbol-defs.svg#icon-dashicons_arrow-right"
+                ></use>
+              </svg>
+              <p>Robust analytics and reporting for data-driven insights</p>
+            </li>
+            <li class="hero-list-item">
+              <svg width="18" height="18">
+                <use
+                  href="./image/symbol-defs.svg#icon-dashicons_arrow-right"
+                ></use>
+              </svg>
+              <p>Offline capabilities for uninterrupted use</p>
+            </li>
+          </ul>
+          <button class="hero-bt" type="submit">Download</button>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
